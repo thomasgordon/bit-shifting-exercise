@@ -58,7 +58,6 @@ fn rotate(data: &mut [u8], direction: &str) -> Result<(), &'static str> {
                 data[i] = (data[i] << 1) | ((data[i + 1] & 0b1000_0000) >> 7);
             }
 
-            // Shift the last byte and append the first bit
             data[data.len() - 1] = (data[data.len() - 1] << 1) | first_bit;
         }
 
