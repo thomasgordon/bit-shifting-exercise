@@ -1,4 +1,8 @@
-# TEST VALUES
+# What is this?
+
+This is an exercise I was asked to do for a job interview, and I decided to do it in rust (which I had never touched before).
+
+# Test Values
 
 I used the following command to create the input.bin file:
 
